@@ -188,7 +188,10 @@ p {
 
 button {
   border: 0;
+  margin: 0;
+  padding: 0;
   background: none;
+  cursor: pointer;
 }
 
 .conteiner {
@@ -420,6 +423,10 @@ button {
   margin-bottom: 10px;
 }
 
+.chose-plans-item::before {
+  content: '\e900';
+}
+
 .chose-plan-btn {
   margin-top: auto;
 }
@@ -531,35 +538,6 @@ button {
   right: inherit;
 }
 
-
-.arrow {
-  color: #f53838;
-  height: 60px;
-  width: 60px;
-}
-
-.arrow-btn {
-  border-radius: 50%;
-  border: 1px solid #f53838;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.arrow-btn:first-child {
-  margin-right: 20px;
-}
-
-.testimonials-slide-btn {
-  display: inline-flex;
-}
-
-.testimonials-pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .slider__bulets {
   display: flex;
 
@@ -589,9 +567,23 @@ button {
   justify-content: space-between;
 }
 
-.slider__buttons-item {
-  width: 60px;
+.slider__buttons {}
 
+.slider__buttons-item {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: #f53838;
+  border: 2px solid #f53838;
+}
+
+.slider__buttons-item:first-child {
+  margin-right: 16px;
+}
+
+.slider__buttons-item--active {
+  background: #f53838;
+  color: #fcffff;
 }
 
 .subscribe-section {
@@ -680,7 +672,9 @@ button {
   align-items: center;
 }
 
-.ft-social-link {}
+.ft-social-link {
+  text-decoration: none;
+}
 
 .icon-fb {}
 
