@@ -356,7 +356,7 @@ button {
   content: '';
   position: absolute;
   background: rgba(245, 56, 56, 0.35);
-  filter: blur(25px);
+  filter: blur(54px);
   border-radius: 10px;
   z-index: -1;
   top: 25px;
@@ -546,7 +546,7 @@ button {
   content: '';
   position: absolute;
   background: rgba(245, 56, 56, 0.35);
-  filter: blur(25px);
+  filter: blur(54px);
   border-radius: 60px;
   z-index: -1;
   top: 17px;
@@ -565,7 +565,7 @@ button {
   content: '';
   position: absolute;
   background: rgba(245, 56, 56, 0.35);
-  filter: blur(25px);
+  filter: blur(54px);
   border-radius: 60px;
   z-index: -1;
   top: 17px;
