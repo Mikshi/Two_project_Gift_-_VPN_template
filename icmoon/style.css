@@ -6,7 +6,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -21,42 +22,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-insta .path1:before {
-  content: "\e90b";
-  color: rgb(245, 56, 56);
+.icon-fb:before {
+  content: "\e901";
 }
-.icon-insta .path2:before {
-  content: "\e90c";
-  margin-left: -0.9853515625em;
-  color: rgb(252, 255, 255);
+
+.icon-insta:before {
+  content: "\e902";
 }
-.icon-left:before {
+
+.icon-twit:before {
+  content: "\e906";
+}
+
+.icon-right:before {
   content: "\e908";
 }
-.icon-right:before {
+
+.icon-left:before {
   content: "\e909";
 }
+
 .icon-check:before {
   content: "\e900";
 }
+
 .icon-loc:before {
   content: "\e903";
 }
+
 .icon-serv:before {
   content: "\e904";
 }
+
 .icon-star:before {
   content: "\e905";
 }
+
 .icon-user:before {
   content: "\e907";
 }
+
 .icon-menu:before {
   content: "\e9bd";
-}
-.icon-fb:before {
-  content: "\ea90";
-}
-.icon-twit:before {
-  content: "\ea96";
 }
