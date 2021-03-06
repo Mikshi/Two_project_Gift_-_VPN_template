@@ -23,25 +23,25 @@
       <nav class="page-nav">
         <ul class="main-nav-list">
           <li class="main-nav-item">
-            <a href="" class="main-nav-link">About</a>
+            <a href="#" class="main-nav-link">About</a>
           </li>
           <li class="main-nav-item">
-            <a href="" class="main-nav-link">Features</a>
+            <a href="#" class="main-nav-link">Features</a>
           </li>
           <li class="main-nav-item">
-            <a href="" class="main-nav-link">Pricing</a>
+            <a href="#" class="main-nav-link">Pricing</a>
           </li>
           <li class="main-nav-item">
-            <a href="" class="main-nav-link">Testimonials</a>
+            <a href="#" class="main-nav-link">Testimonials</a>
           </li>
           <li class="main-nav-item">
-            <a href="" class="main-nav-link">Help</a>
+            <a href="#" class="main-nav-link">Help</a>
           </li>
         </ul>
       </nav>
       <div>
-        <button class="main-btn">Sign in</button>
-        <button class="main-btn main-btn--alt">Sign up</button>
+        <button class="main-btn" name="sing-in">Sign in</button>
+        <button class="main-btn main-btn--alt" name="sing-up">Sign up</button>
       </div>
     </div>
   </header>
@@ -53,7 +53,7 @@
             <h1 class="header-content__title">Want anything to be easy with LaslesVPN.</h1>
             <p class="header-content__text">Provide a network for all your needs with ease and fun using <span
                 class="header-b">LaslesVPN</span> discover interesting features from us.</p>
-            <button class="main-btn header-content-btn header-content-btn--alt">Get Started</button>
+            <button class="main-btn header-content-btn header-content-btn--alt" name="start-work">Get Started</button>
           </div>
           <div class="img-header">
             <img src="img/sec-1.png" alt="header image">
@@ -149,7 +149,7 @@
             </ul>
             <div class="chose-plan-btn">
               <p class="chose-plan-header__text">Free</p>
-              <button class="main-btn chose-btn chose-btn--blur">Select</button>
+              <button class="main-btn chose-btn chose-btn--blur" name="chose-plan-free">Select</button>
             </div>
           </div>
           <div class="chose-plan chose-plan__standert">
@@ -176,7 +176,7 @@
             </div>
             <div class="chose-plan-btn">
               <p class="chose-plan-header__text">$9 / mo</p>
-              <button class="main-btn chose-btn chose-btn--blur">Select</button>
+              <button class="main-btn chose-btn chose-btn--blur" name="chose-plan-standard">Select</button>
             </div>
           </div>
           <div class="chose-plan chose-plan--active">
@@ -204,7 +204,7 @@
             </ul>
             <div class="chose-plan-btn">
               <p class="chose-plan-header__text">$12 / <span class="chose-month">mo</span></p>
-              <button class="main-btn chose-btn chose-btn--active">Select</button>
+              <button class="main-btn chose-btn chose-btn--active" name="chose-plan-premium">Select</button>
             </div>
           </div>
         </div>
@@ -274,22 +274,24 @@
           <div class="slider__controls">
             <ul class="slider__bulets">
               <li class="slider__bullets-item">
-                <button class="slider__bullets-button slider__bullets-button--active" aria-label="slide 1"></button>
+                <button name="slide-1" class="slider__bullets-button slider__bullets-button--active"
+                  aria-label="slide 1"></button>
               </li>
               <li class="slider__bullets-item">
-                <button class="slider__bullets-button" aria-label="slide 2"></button>
+                <button class="slider__bullets-button" aria-label="slide 2" name="slide-2"></button>
               </li>
               <li class="slider__bullets-item">
-                <button class="slider__bullets-button" aria-label="slide 3"></button>
+                <button class="slider__bullets-button" aria-label="slide 3" name="slide-3"></button>
               </li>
               <li class="slider__bullets-item">
-                <button class="slider__bullets-button" aria-label="slide 4"></button>
+                <button class="slider__bullets-button" aria-label="slide 4" name="slide-4"></button>
               </li>
             </ul>
             <div class="slider__buttons">
-              <button class="slider__buttons-item"><span class="icon-left"></span></button>
-              <button class="slider__buttons-item slider__buttons-item--active"><span
-                  class="icon-right"></span></button>
+              <button name="arrow-left" class="slider__buttons-item" aria-label="slide arrow left"><span
+                  class="icon-left"></span></button>
+              <button name="arrow-right" class="slider__buttons-item slider__buttons-item--active"
+                aria-label="slide arrow right"><span class="icon-right"></span></button>
             </div>
           </div>
         </div>
@@ -302,7 +304,7 @@
             <h2 class="subscribe-item__title">Subscribe Now for Get Special Features!</h2>
             <p class="subscribe-item__text">Let's subscribe with us and find the fun.</p>
           </div>
-          <button class="subscribe-btn subscribe-btn--blur">Subscribe Now</button>
+          <button class="subscribe-btn subscribe-btn--blur" name="get-starterd">Subscribe Now</button>
         </div>
       </div>
     </section>
@@ -318,11 +320,11 @@
             unique
             features and has high security.</p>
           <ul class="ft-social-list">
-            <li class="ft-social-item"><a href="#" class="ft-social-link"><span
+            <li class="ft-social-item"><a href="#" class="ft-social-link" aria-label="Link Facebook"><span
                   class="icon-fb icon-fb--alt "></span></a></li>
-            <li class="ft-social-item"><a href="#" class="ft-social-link"><span
+            <li class="ft-social-item"><a href="#" class="ft-social-link" aria-label="Link Twitter"><span
                   class="icon-twit icon-twit--alt"></span></a></li>
-            <li class="ft-social-item"><a href="#" class="ft-social-link"><span
+            <li class="ft-social-item"><a href="#" class="ft-social-link" aria-label="Link Instagram"><span
                   class="icon-insta icon-insta--alt"></span></a></li>
           </ul>
           <p class="ft-copy-txt">©2020Lasles<span class="header-b">VPN</span></p>
