@@ -142,14 +142,14 @@ table {
 }
 
 /* !=-----= */
-/*
-**,
-**:before,
-**:after {
-  box-shadow: 0 0 5px #ccc;
-} */
 
-@font-face {
+*,
+*:before,
+*:after {
+  /* box-shadow: 0 0 5px #ccc; */
+}
+
+*/ @font-face {
   font-family: Rubik;
   src: local("Rubik Regular"),
     local("Rubik-Regular"),
