@@ -149,6 +149,38 @@ table {
   box-shadow: 0 0 5px #ccc;
 } */
 
+@font-face {
+  font-family: Rubik;
+  src: local("Rubik Regular"),
+    local("Rubik-Regular"),
+    url("../fonts/Rubik-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: local("Rubik Regular"),
+    local("Rubik-Regular"),
+    url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: local("Rubik Medium"),
+    local("Rubik-Medium"),
+    url("../fonts/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: local("Rubik Bold"),
+    local("Rubik-Bold"),
+    url("../fonts/Rubik-Bold.woff") format("woff");
+  font-weight: bold;
+}
+
 /* todo --- style----- */
 
 body {
