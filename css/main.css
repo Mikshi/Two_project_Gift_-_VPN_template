@@ -530,11 +530,12 @@ button {
   text-align: center;
 }
 
-.chose-plan-header__text {
+.chose-plan-btn__text {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .chose-btn {
@@ -662,17 +663,17 @@ button {
   border: 2px solid #f53838;
 }
 
-.testimonials-reviews__post--active {
+.testimonials-reviews-post--active {
   border: 2px solid #f53838;
 }
 
-.testimonials-user__title {
+.testimonials-user-loc__title {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
 }
 
-.testimonials-user__text {
+.testimonials-user-loc__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -684,14 +685,14 @@ button {
   line-height: 30px;
 }
 
-.star-item__title {
+.testimonials-raiting-user__star-item-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   margin-right: 10px;
 }
 
-.star-item__icon {
+.testimonials-raiting-user__star-item-icon {
   color: #fea250;
   height: 14px;
   width: 14px;
@@ -785,14 +786,14 @@ button {
   width: 39%;
 }
 
-.subscribe-item__title {
+.subscribe-item-txt-wrap__title {
   font-weight: 500;
   font-size: 35px;
   line-height: 45px;
   margin-bottom: 20px;
 }
 
-.subscribe-item__text {
+.subscribe-item-txt-wrap__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -848,7 +849,7 @@ button {
   align-items: flex-start;
 }
 
-.ft__link-wrap {
+.ft-link-wrap {
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;
@@ -858,11 +859,11 @@ button {
   margin-right: 150px;
 }
 
-.ft__product-link {
+.ft-link-wrap__product-link {
   margin-right: 120px;
 }
 
-.ft__engage-link {
+.ft-link-wrap__engage-link {
   margin-right: 70px;
 }
 
@@ -939,7 +940,7 @@ button {
   line-height: 30px;
 }
 
-.ft__link {
+.ft-item-link {
   color: #4f5665;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -948,6 +949,6 @@ button {
   transition: background-size .3s;
 }
 
-.ft__link:hover {
+.ft-item-link:hover {
   background-size: 100% 2px;
 }
