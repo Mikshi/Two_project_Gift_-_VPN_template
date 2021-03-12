@@ -296,14 +296,18 @@ p {
   }
 }
 
-.main-nav_list-item {
+.main-nav__list-item {
   padding-right: 0px;
 }
 
 @media (min-width: 992px) {
-  .main-nav_list-item:not(:last-child) {
+  .main-nav__list-item:not(:last-child) {
     padding-right: 30px;
   }
+}
+
+.link-effect {
+  position: relative;
 }
 
 .main-nav__link {
@@ -314,7 +318,7 @@ p {
   line-height: 20px;
 }
 
-.main-nav__link:before {
+.link-effect:before {
   display: block;
   position: absolute;
   content: "";
@@ -326,7 +330,7 @@ p {
   bottom: 0;
 }
 
-.main-nav__link:after {
+.link-effect:after {
   display: block;
   position: absolute;
   content: "";
@@ -338,12 +342,12 @@ p {
   bottom: 0;
 }
 
-.main-nav__link:hover:before {
+.link-effect:hover:before {
   width: 50%;
   left: 0;
 }
 
-.main-nav__link:hover:after {
+.link-effect:hover:after {
   width: 50%;
 }
 
@@ -545,7 +549,7 @@ p {
   }
 }
 
-.hero-col__img {
+.w-img {
   width: 100%;
 }
 
@@ -754,7 +758,7 @@ p {
   }
 }
 
-.contact-secteon__flex {
+.contact-section__flex {
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -762,7 +766,7 @@ p {
 }
 
 @media (min-width: 992px) {
-  .contact-secteon__flex {
+  .contact-section__flex {
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -804,19 +808,19 @@ p {
   }
 }
 
-.contact-block__btn {
+.contact-block-btn {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 @media (min-width: 992px) {
-  .contact-block__btn {
+  .contact-block-btn {
     padding-top: 0px;
     padding-bottom: 0px;
   }
 }
 
-.contact-block__btn-f {
+.contact-block-btn__f {
   background: #231f20;
   color: white;
   font-weight: 400;
@@ -825,7 +829,7 @@ p {
   margin-bottom: 16px;
 }
 
-.contact-block__btn-w {
+.contact-block-btn__w {
   font-size: 18px;
   font-weight: 400;
   color: #231f20;
@@ -834,13 +838,13 @@ p {
 }
 
 @media (min-width: 576px) {
-  .contact-block__btn-f {
+  .contact-block-btn__f {
     margin-right: 16px;
     padding: 13px 31px;
     margin-bottom: 0px;
   }
 
-  .contact-block__btn-w {
+  .contact-block-btn__w {
     padding: 13px 31px;
     margin-bottom: 0px;
   }
