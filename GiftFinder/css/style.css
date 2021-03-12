@@ -736,7 +736,10 @@ p {
 
 .occas-inner__link {
   text-decoration: none;
+  font-family: Roboto, sans-serif;
   color: #000;
+  font-size: 14px;
+  line-height: 19px;
   padding: 24px;
 }
 
