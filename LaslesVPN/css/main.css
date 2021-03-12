@@ -149,7 +149,7 @@ table {
   /* box-shadow: 0 0 5px #ccc; */
 }
 
-*/ @font-face {
+@font-face {
   font-family: Rubik;
   src: local("Rubik Regular"),
     local("Rubik-Regular"),
