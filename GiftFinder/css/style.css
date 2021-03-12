@@ -170,7 +170,7 @@ table {
   src: local("Gilroy Bold"),
     local("Gilroy-Bold"),
     url("../fonts/gilroy-bold.woff2") format("woff2");
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* todo --- style----- */
@@ -190,7 +190,7 @@ button {
 h1 {
   font-size: 56px;
   line-height: 69px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000;
 }
 
@@ -445,7 +445,7 @@ p {
 }
 
 .main-heading {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   margin-bottom: 16px;
   line-height: 50px;
@@ -649,7 +649,7 @@ p {
 @media (min-width: 768px) {
   .occas-headtxt__heading {
     padding-bottom: 23px;
-    font-weight: bolt;
+    font-weight: 700;
     font-size: 32px;
   }
 }
@@ -738,4 +738,108 @@ p {
   text-decoration: none;
   color: #000;
   padding: 24px;
+}
+
+.contact-section {
+  background: #f7941e;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 100px;
+  }
+}
+
+.contact-secteon__flex {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+@media (min-width: 992px) {
+  .contact-secteon__flex {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.contact-headtxt {
+  padding-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .contact-headtxt {
+    padding-top: 0px;
+  }
+}
+
+.contact-headtxt__title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+@media (min-width: 992px) {
+  .contact-headtxt__title {
+    font-size: 32px;
+  }
+}
+
+.contact-headtxt__desc {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+@media (min-width: 992px) {
+  .contact-headtxt__desc {
+    font-size: 32px;
+  }
+}
+
+.contact-block__btn {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .contact-block__btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.contact-block__btn-f {
+  background: #231f20;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+.contact-block__btn-w {
+  font-size: 18px;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 22px;
+  border: 1px solid #231f20;
+}
+
+@media (min-width: 576px) {
+  .contact-block__btn-f {
+    margin-right: 16px;
+    padding: 13px 31px;
+    margin-bottom: 0px;
+  }
+
+  .contact-block__btn-w {
+    padding: 13px 31px;
+    margin-bottom: 0px;
+  }
+
 }
