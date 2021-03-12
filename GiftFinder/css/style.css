@@ -187,6 +187,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  /* width: 100%; */
+}
+
 h1 {
   font-size: 56px;
   line-height: 69px;
