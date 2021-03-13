@@ -1054,6 +1054,7 @@ p {
   line-height: 20px;
   font-weight: 500;
   padding: 10px;
+  color: #000;
 }
 
 @media (min-width: 992px) {
