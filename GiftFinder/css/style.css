@@ -85,7 +85,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  text-decoration: none;
 }
 
 *,
@@ -317,6 +316,7 @@ p {
   padding: 8px;
   font-size: 16px;
   line-height: 20px;
+  color: black;
 }
 
 .link-effect:before {
