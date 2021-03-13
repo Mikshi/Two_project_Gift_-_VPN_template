@@ -1085,6 +1085,15 @@ p {
 
 .gift-footer__list-item-link {
   display: inline-flex;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .gift-footer__list-item-link {
+    font-size: 14px;
+  }
 }
 
 .logof {
@@ -1117,6 +1126,7 @@ p {
 
 @media (min-width: 568px) {
   .gift-footer__nav {
+    margin: 0;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1135,12 +1145,14 @@ p {
 }
 
 .gift-footer__socia {
+  display: flex;
   padding: 30px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .gift-footer__socia {
-    display: flex;
+    padding-top: 55px;
+    padding-bottom: 72px;
   }
 }
 
@@ -1150,10 +1162,11 @@ p {
   }
 }
 
-.gift-footer__socia-list-item {
-  margin: 10px;
+@media (min-width: 1200px) {
+  .gift-footer__socia-list-item {
+    margin: 0px;
+  }
 }
-
 @media (min-width: 576px) {
   .gift-footer__socia-list-item {
     margin: 0;
